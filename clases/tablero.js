@@ -25,6 +25,7 @@ this.prender=function(posinicial,posfinal){
 
         }
     }
+return this.luces
 }
 }
 
