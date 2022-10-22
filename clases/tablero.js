@@ -52,6 +52,19 @@ this.cambiar=function(posinicial,posfinal){
 return this.luces
 
 }
+this.cuantasEncidadas=function(posinicial,posfinal){
+    cont=0
+
+    for(var i=posinicial[0];i<=posfinal[0];i++){
+        for (var j = posinicial[1]; j<=posfinal[1]; j++){
+
+            cont=(this.luces[i][j]==0)?cont+1:cont+0;
+        }
+    
+    }
+return cont
+
+}
 }
 
 module.exports=Tablero;
