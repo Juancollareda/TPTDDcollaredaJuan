@@ -52,5 +52,6 @@ this.cambiar=function(posinicial,posfinal){
 return this.luces
 
 }
+}
 
 module.exports=Tablero;
