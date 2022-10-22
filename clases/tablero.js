@@ -18,9 +18,13 @@ return this.luces
 this.prender=function(posinicial,posfinal){
 
 
+    for(var i=posinicial[0];i<posfinal[0];i++){
+        for (var j = posinicial[0]; j <posfinal[1]; j++){
 
+            luces[i][j]=1
 
-    
+        }
+    }
 }
 }
 
