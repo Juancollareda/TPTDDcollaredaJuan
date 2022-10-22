@@ -6,6 +6,9 @@ test("crear tablero vacio", ()=>{
 })
 test("crear tablero 4*4", ()=>{
     const tablero = new Tablero();
-    expect(tablero.crear(4,4)).toBe("0000\n0000\n0000\n0000" ); 
+    expect(tablero.crear(4,4)).toBe("0000
+    0000
+    0000
+    0000"); 
 
 })
