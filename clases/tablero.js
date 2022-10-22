@@ -21,7 +21,7 @@ this.prender=function(posinicial,posfinal){
     for(var i=posinicial[0];i<=posfinal[0];i++){
         for (var j = posinicial[1]; j<=posfinal[1]; j++){
 
-            this.luces[i][j]=this.luces[i][j]+1
+            this.luces[i][j]=this.luces[i][j]=this.luces[i][j]+(this.luces[i][j]<10)?1:0;
 
         }
     }
@@ -33,7 +33,8 @@ this.apagar=function(posinicial,posfinal){
     for(var i=posinicial[0];i<=posfinal[0];i++){
         for (var j = posinicial[1]; j<=posfinal[1]; j++){
 
-            this.luces[i][j]=this.luces[i][j]-1
+            this.luces[i][j]=this.luces[i][j]=this.luces[i][j]+(this.luces[i][j]>0)?-1:0;
+        }   
 
         }
     }
@@ -45,8 +46,8 @@ this.cambiar=function(posinicial,posfinal){
     for(var i=posinicial[0];i<=posfinal[0];i++){
         for (var j = posinicial[1]; j<=posfinal[1]; j++){
 
-            this.luces[i][j]=this.luces[i][j]+(this.luces[i][j]==0)?2:-2;
-        }
+            this.luces[i][j]=this.luces[i][j]+(this.luces[i][j]>0 && this.luces[i][j]<10)?2:0;
+        }   
     
     }
 return this.luces
