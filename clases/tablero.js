@@ -52,7 +52,7 @@ this.cambiar=function(posinicial,posfinal){
 return this.luces
 
 }
-this.cuantasEncidadas=function(posinicial,posfinal){
+this.cuantasEncendidas=function(posinicial,posfinal){
     cont=0
 
     for(var i=posinicial[0];i<=posfinal[0];i++){
