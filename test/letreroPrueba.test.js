@@ -1,4 +1,4 @@
-const Tablero = require("../clases/tablero");
+const Tablero = require("../clases/tablero(premodificado)");
 test("crear tablero vacio", ()=>{
     const tablero = new Tablero();
     expect(tablero.crear()).toBe(null); 

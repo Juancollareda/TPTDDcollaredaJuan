@@ -1,4 +1,4 @@
-const Tablero = require("../clases/tablero(premodificado)");
+const Tablero = require("../clases/tablero");
 test("prender luces mas intensa",()=>{
     const tablero = new Tablero();
     tablero4x4=tablero.crear(4,4);
