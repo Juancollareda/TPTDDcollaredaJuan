@@ -17,8 +17,7 @@ test("apagar luces menos intensa",()=>{
 test("cambiar toggle intensidad",()=>{
     const tablero = new Tablero();
     tablero4x4=tablero.crear(4,4);
-    tablero.prender([0,0],[2,2])
-    expect(tablero.cambiar([0,0],[2,2])).toStrictEqual([[3, 3, 3, 0], [3, 3, 3, 0], [3, 3, 3, 0], [0, 0, 0, 0]]); 
+    expect(tablero.cambiar([0,0],[2,2])).toStrictEqual([[2, 2, 2, 0], [2, 2, 2, 0], [2, 2, 2, 0], [0, 0, 0, 0]]); 
 
 })
 
