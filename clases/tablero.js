@@ -7,7 +7,7 @@ function Tablero(){
             this.luces.push(0)
 
    }
-   return luces;
+   return this.luces;
 }
     }
 }
