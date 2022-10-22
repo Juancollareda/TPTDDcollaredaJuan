@@ -25,6 +25,6 @@ test("toggle",()=>{
     const tablero = new Tablero();
     tablero4x4=tablero.crear(4,4);
     tablero4x4prender=tablero.prender([0,0],[2,2]);
-    expect(tablero.cambiar([0,0],[2,2])).toStrictEqual([[0, 0, 0, 1], [0, 0, 0, 1], [0, 0, 0, 1], [0, 0, 0, 0]]); 
+    expect(tablero.cambiar([0,0],[2,3])).toStrictEqual([[0, 0, 0, 1], [0, 0, 0, 1], [0, 0, 0, 1], [0, 0, 0, 0]]); 
 
 })
