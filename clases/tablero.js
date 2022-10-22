@@ -7,7 +7,7 @@ function Tablero(){
             this.luces[i].push(0)
 
    }
-   this.push()
+   this.luces.push()
 }
 return this.luces
     }
