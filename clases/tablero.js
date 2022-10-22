@@ -58,7 +58,7 @@ this.cuantasEncendidas=function(posinicial,posfinal){
     for(var i=posinicial[0];i<=posfinal[0];i++){
         for (var j = posinicial[1]; j<=posfinal[1]; j++){
 
-            cont=cont+(this.luces[i][j]>0)?0:1;
+            cont=cont+(this.luces[i][j]>0)?1:0;
         }
     
     }
