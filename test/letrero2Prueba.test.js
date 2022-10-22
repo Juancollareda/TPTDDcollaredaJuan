@@ -19,6 +19,16 @@ test("cambiar toggle intensidad",()=>{
     expect(tablero.cambiar([0,0],[2,2])).toStrictEqual([[2, 2, 2, 0], [2, 2, 2, 0], [2, 2, 2, 0], [0, 0, 0, 0]]); 
 
 })
+test("cuanta hay encendidas",()=>{
+
+    const tablero = new Tablero();
+    tablero4x4=tablero.crear(4,4);
+    tablero4x4prender=tablero.prender([0,0],[2,2]);
+    expect(tablero.cuantasEncendidas([0,0],[2,2])).toBe(9); 
+
+
+})
+
 
 
 
