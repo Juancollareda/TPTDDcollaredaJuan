@@ -1,9 +1,9 @@
 function Tablero(){
 
-    this.luces=null
+    this.luces=''
     this.crear=function(fila,columna){
     for (var i = 0; i < fila; i++) {
-        for (var i = 0; i < columna; i++) {
+        for (var j = 0; j < columna; j++) {
             this.luces="0"+this.luces
 
    }
