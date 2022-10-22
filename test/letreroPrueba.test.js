@@ -1,7 +1,6 @@
 const Tablero = require("../clases/tablero");
 test("crear tablero vacio", ()=>{
     const tablero = new Tablero();
-    expect(tablero.crear().toBe(null));
-    
+    expect(tablero.crear()).toBe(null); 
 
 })
