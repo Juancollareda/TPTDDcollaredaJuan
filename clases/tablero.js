@@ -62,7 +62,7 @@ this.cuantasEncendidas=function(posinicial,posfinal){
         }
     
     }
-return this.luces
+return cont
 
 }
 }
