@@ -8,7 +8,7 @@ function Tablero(){
 
    }
 
-   this.luces=this.luces+'/n'
+   this.luces=this.luces+'\n'
 }
 return this.luces
     }
