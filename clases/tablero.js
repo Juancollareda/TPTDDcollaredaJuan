@@ -66,6 +66,5 @@ this.cuantasEncendidas=function(posinicial,posfinal){
 return cont
 
 }
-}
 
 module.exports=Tablero;
