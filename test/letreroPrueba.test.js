@@ -1,10 +1,6 @@
-test("crear tablero", ()=>{
+test("crear tablero vacio", ()=>{
     const tablero = new Tablero();
-    expect(tablero.crear(3,3).toBe([[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]));
-    /* mia matriz 0 0 0 0
-                  0 0 0 0
-                  0 0 0 0
-                  0 0 0 0
-    */
+    expect(tablero.crear().toBe(null));
+    
 
 })
