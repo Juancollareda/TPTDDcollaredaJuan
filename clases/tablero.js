@@ -27,6 +27,19 @@ this.prender=function(posinicial,posfinal){
     }
 return this.luces
 }
+this.apagar=function(posinicial,posfinal){
+
+
+    for(var i=posinicial[0];i<=posfinal[0];i++){
+        for (var j = posinicial[1]; j<=posfinal[1]; j++){
+
+            this.luces[i][j]=0
+
+        }
+    }
+return this.luces
+}
+
 }
 
 module.exports=Tablero;
