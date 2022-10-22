@@ -11,7 +11,7 @@ test("apagar luces menos intensa",()=>{
     tablero4x4=tablero.crear(4,4);
     tablero.prender([0,0],[2,2])
     tablero.prender([0,0],[2,2])
-    expect(tablero.prender([0,0],[2,2])).toStrictEqual([[1, 1, 1, 0], [1, 1, 1, 0], [1, 1, 1, 0], [0, 0, 0, 0]]); 
+    expect(tablero.apagar([0,0],[2,2])).toStrictEqual([[1, 1, 1, 0], [1, 1, 1, 0], [1, 1, 1, 0], [0, 0, 0, 0]]); 
 
 })
 
