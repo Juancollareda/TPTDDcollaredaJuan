@@ -15,6 +15,13 @@ function Tablero(){
 }
 return this.luces
     }
+this.prender=function(posinicial,posfinal){
+
+
+
+
+    
+}
 }
 
 module.exports=Tablero;
