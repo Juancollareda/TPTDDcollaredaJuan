@@ -4,7 +4,7 @@ function Tablero(){
     this.luces=[]
     this.crear=function(fila,columna){
         if (fila> 0||columna > 0){
-            throw ("valor no valido")
+            throw ("valor negativo")
         }
         if(fila==null && columna==null){
             return null
