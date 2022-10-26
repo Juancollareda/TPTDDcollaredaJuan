@@ -1,4 +1,4 @@
-const Errores = require("../Errores");
+const Errores = require("../clases/Errores");
 function Tablero(){
 
     this.luces=[]
