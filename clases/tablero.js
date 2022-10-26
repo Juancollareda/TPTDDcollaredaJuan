@@ -21,7 +21,9 @@ return this.luces
     }
 this.prender=function(posinicial,posfinal){
 
-
+    if (posfinal<0||columna < 0||posfinal[0]>length(this.luces[0])||posfinal[1]>length(luces)){
+        throw ("valor negativo")
+    }
     for(var i=posinicial[0];i<=posfinal[0];i++){
         for (var j = posinicial[1]; j<=posfinal[1]; j++){
 
