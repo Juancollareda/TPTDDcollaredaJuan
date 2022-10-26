@@ -3,8 +3,8 @@ function Tablero(){
 
     this.luces=[]
     this.crear=function(fila,columna){
-        Errores.numerooNegativo(fila)
-        Errores.numerooNegativo(columna)
+        Errores.numeroNegativo(fila)
+        Errores.numeroNegativo(columna)
         if(fila==null && columna==null){
             return null
         }
