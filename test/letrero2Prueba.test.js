@@ -28,6 +28,14 @@ test("cuanta hay encendidas",()=>{
 
 
 })
+test("errores valor negativo",()=>{
+
+    const tablero = new Tablero();
+    expect(tablero.crear(-4,4)).toBe("Error en las dimensiones establecidas"); 
+
+
+})
+
 
 
 
