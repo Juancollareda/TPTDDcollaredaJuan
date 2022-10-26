@@ -3,7 +3,7 @@ function Tablero(){
 
     this.luces=[]
     this.crear=function(fila,columna){
-        if (fila> 0||columna > 0){
+        if (fila<0||columna < 0){
             throw ("valor negativo")
         }
         if(fila==null && columna==null){
