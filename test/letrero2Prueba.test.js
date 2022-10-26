@@ -31,7 +31,7 @@ test("cuanta hay encendidas",()=>{
 test("errores valor negativo",()=>{
 
     const tablero = new Tablero();
-    expect(tablero.crear(-4,-4)).toBe("valor negativo"); 
+    expect(tablero.crear(-4,-4)).toThrow("valor negativo"); 
 
 
 })
