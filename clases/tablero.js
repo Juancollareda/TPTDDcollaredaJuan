@@ -3,8 +3,9 @@ function Tablero(){
 
     this.luces=[]
     this.crear=function(fila,columna){
-        Errores.numeroNegativo(fila)
-        Errores.numeroNegativo(columna)
+        if (fila> 0||columna > 0){
+            throw ("valor no valido")
+        }
         if(fila==null && columna==null){
             return null
         }
