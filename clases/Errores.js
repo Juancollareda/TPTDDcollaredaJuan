@@ -1,5 +1,5 @@
 
-function Errores(){
+function Error(){
     this.numeroNegativo=function(numero){
     if (numero>0){
         throw ("Error en las dimensiones establecidas")
@@ -12,4 +12,4 @@ function Errores(){
     }
 }
 }
-module.exports=Errores
+module.exports=Error
